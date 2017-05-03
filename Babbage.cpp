@@ -46,12 +46,12 @@ int main() {
             for(int col = 0; col < 4; col++) {
                 cout << fixed << setprecision(1);
                 //output first value
-		        cout << right << setw(iw) << input;
-		        //calculate output
+		cout << right << setw(iw) << input;
+		//calculate output
                 cout << fixed << setprecision(4);
-		        output = log(input);
-		        //output.. output
-		        cout << right << setw(ow) << fixed << output;
+		output = log(input);
+	        //output.. output
+		cout << right << setw(ow) << fixed << output;
                 input += lines * 0.1;
             }
             cout << endl;
